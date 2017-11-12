@@ -1,0 +1,4 @@
+language: csharp
+solution: Test-Travis-CI-Integration.sln
+before_script:
+  - nuget restore Test-Travis-CI-Integration.sln
